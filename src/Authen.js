@@ -16,6 +16,16 @@ class Authen extends Component{
             const email = this.refs.email.value;
             const password = this.refs.password.value;
             console.log(email, password);
+        
+         const auth = firebase.auth();
+
+            const promise = auth.signInWithEmailAndPassword(email, password);
+
+            promise.catch(e => {
+                var err = e.message;
+            });
+        
+        
         }
     
 
