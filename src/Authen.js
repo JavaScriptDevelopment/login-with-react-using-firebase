@@ -33,7 +33,10 @@ class Authen extends Component{
     constructor(props) {
       super(props)
     
-      this.state = {}
+     
+      this.state = {
+          err: ''
+      };
 
       this.login = this.login.bind(this);
 
@@ -46,7 +49,8 @@ class Authen extends Component{
             <div>
                     <input id = "email" ref = "email" type = "email" placeholder = "Enter your email" /> <br />                
                     <input id = "pass" ref = "password" type = "password" placeholder = "Enter your password" /> <br />  
-                   <button onClick = {this.login}>Log In </button>
+                    <p>{this.state.err}</p>
+                    <button onClick = {this.login}>Log In </button>
                     <button>Sign Up </button>
                     <button>Log Out</button>
 
