@@ -39,14 +39,13 @@ class Authen extends Component{
             const auth = firebase.auth();
             const promise = auth.createUserWithEmailAndPassword(email, password);
 
-        }
+         promise
+            .then(user => {
+                var err = "Welcome "+ user.email;
+                firebase.database().ref('/user')
+            });
 
-
-    
-    
-    
-    
-    
+        }    
     
 
 
