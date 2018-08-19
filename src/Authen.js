@@ -15,8 +15,12 @@ class Authen extends Component{
     render(){
         return(
             <div>
-                        <input id = "email" ref = "email" type = "email" placeholder = "Enter your email" /> <br />                
+                    <input id = "email" ref = "email" type = "email" placeholder = "Enter your email" /> <br />                
                     <input id = "pass" ref = "password" type = "password" placeholder = "Enter your password" /> <br />  
+                    <button>Log In </button>
+                    <button>Sign Up </button>
+                    <button>Log In </button>
+                        
             </div>
         );
     }
