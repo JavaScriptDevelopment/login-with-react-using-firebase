@@ -17,9 +17,10 @@ class Authen extends Component{
             <div>
                     <input id = "email" ref = "email" type = "email" placeholder = "Enter your email" /> <br />                
                     <input id = "pass" ref = "password" type = "password" placeholder = "Enter your password" /> <br />  
-                    <button>Log In </button>
+                   <button onClick = {this.login}>Log In </button>
                     <button>Sign Up </button>
-                    <button>Log Out </button>
+                    <button>Log Out</button>
+
                         
             </div>
         );
