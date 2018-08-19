@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-var firebase = require(firebase);
+var firebase = require('firebase');
 
 var config = {
     apiKey: "AIzaSyAgO_Ma0UO_rxCoJmKMeknFc4tCbPlI8m4",
