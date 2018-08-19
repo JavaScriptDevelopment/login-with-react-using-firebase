@@ -23,6 +23,8 @@ class Authen extends Component{
 
             promise.catch(e => {
                 var err = e.message;
+                console.log(err);
+                this.setState({err: err});
             });
         
         
