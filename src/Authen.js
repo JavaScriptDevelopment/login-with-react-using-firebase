@@ -37,7 +37,7 @@ class Authen extends Component{
             console.log(email, password);
 
             const auth = firebase.auth();
-            const promise = auth.createUserAndRetrieveDataWithEmailAndPassword(email, password);
+            const promise = auth.createUserWithEmailAndPassword(email, password);
 
         }
 
