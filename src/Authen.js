@@ -11,12 +11,6 @@ var config = {
   };
   firebase.initializeApp(config);
 
-
-
-
-
-
-
 class Authen extends Component{
     render(){
         return(
