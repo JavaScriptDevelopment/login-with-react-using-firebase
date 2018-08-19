@@ -19,7 +19,7 @@ class Authen extends Component{
                     <input id = "pass" ref = "password" type = "password" placeholder = "Enter your password" /> <br />  
                     <button>Log In </button>
                     <button>Sign Up </button>
-                    <button>Log In </button>
+                    <button>Log Out </button>
                         
             </div>
         );
