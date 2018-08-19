@@ -12,6 +12,25 @@ var config = {
   firebase.initializeApp(config);
 
 class Authen extends Component{
+    login(event){
+            const email = this.refs.email.value;
+            const password = this.refs.password.value;
+            console.log(email, password);
+        }
+    
+
+
+    constructor(props) {
+      super(props)
+    
+      this.state = {}
+
+      this.login = this.login.bind(this);
+
+
+    }
+        
+    
     render(){
         return(
             <div>
